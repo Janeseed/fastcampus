@@ -6,7 +6,7 @@ username = input("Hi! What is your name?: ")
 trial = 7
 
 while trial : #python에서 0이 아닌 다른 값은 True이기 때문에 그냥 trial을 입력하면 trial이 0이 되면 while 문이 깨짐
-    guess = eval(input( username + ", guess the number: "))
+    guess = eval(input( username + ", guess the number from 1 to 100: "))
 
     if guess == answer:
         print("Great, You are correct. It's ", answer)
